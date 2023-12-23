@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import socketIO from "socket.io-client";
 
-const socket = socketIO.connect("http://localhost:3000");
+const socket = socketIO.connect("https://chat-app-backend.saurabh-tiwari.tech");
 
 function Chat({ params }) {
   const [message, setMessage] = useState("");
