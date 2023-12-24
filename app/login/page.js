@@ -27,14 +27,14 @@ function Login() {
             name="username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            className="w-full rounded py-1 px-2 border border-slate-200 outline-slate-500"
+            className="w-full rounded py-1 px-2 border border-slate-200 outline-slate-300"
             placeholder="Enter username"
             required
           />
         </div>
         <button
           type="submit"
-          className="bg-slate-600 hover:bg-slate-700 px-4 py-1 rounded shadow text-slate-50"
+          className="bg-green-600 hover:bg-green-700 px-4 py-1 rounded shadow text-white"
         >
           Login
         </button>
