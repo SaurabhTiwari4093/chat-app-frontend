@@ -21,7 +21,7 @@ function Login() {
           Please login to start chat
         </div>
         <div className="my-4">
-          <label className="text-slate-500">Username</label>
+          <label className="text-slate-500">Create username</label>
           <input
             type="text"
             name="username"
